@@ -171,13 +171,13 @@ Após abrir, aguarde a convergência do RIP v2 (alguns segundos em modo Realtime
 ping <IP-de-destino>
 
 # Para testar FTP (de LAN2, Filial 1 ou Filial 3):
-ftp 201.222.5.1
+ftp 201.222.5.1 # Username: ftpuser | Password: Ftp@123
 
 # Para testar bloqueio de acesso (da Filial 2 — deve falhar):
-ftp 201.222.5.1
+ftp 201.222.5.1 
 
 # Para testar Telnet ao R7 com autenticação RADIUS:
-telnet 201.222.5.1 # Username: aluno | Password: Rede123
+telnet 201.222.5.1 # Username: aluno | Password: Rede@123
 
 
 ```
